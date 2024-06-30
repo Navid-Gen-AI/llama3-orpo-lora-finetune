@@ -1,4 +1,4 @@
-## Llama3 ORPO LoRA Fine-Tune ⭐
+## Llama3 ORPO LoRA Fine-Tune 
 
 This project focuses on fine-tuning the Llama 3 model using ORPO and LoRA techniques. It includes scripts for model configuration, dataset preparation, training, and finalization.
 
@@ -10,6 +10,7 @@ This project focuses on fine-tuning the Llama 3 model using ORPO and LoRA techni
 2. Run the main script:
     ```bash
     python main.py
+    
     
 ### Directory Structure 📂
 - **data/**
