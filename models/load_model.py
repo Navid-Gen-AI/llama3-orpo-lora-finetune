@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import LoraConfig, prepare_model_for_kbit_training
-
+##load model
 def load_model(base_model, torch_dtype):
     # QLoRA config
     bnb_config = BitsAndBytesConfig(
